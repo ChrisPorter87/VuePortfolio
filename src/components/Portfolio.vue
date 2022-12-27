@@ -72,9 +72,9 @@ export default defineComponent({
   name: "my-portfolio",
   setup() {
     return {
-      bistro: "/src/pictures/bisto.jpg",
-      orale: "/src/pictures/orale.jpeg",
-      recipe: "/src/pictures/recipepantry.png",
+      bistro: "../assets/bisto.jpg",
+      orale: "../assets/orale.jpeg",
+      recipe: "../assets/recipepantry.png",
     };
   },
 });

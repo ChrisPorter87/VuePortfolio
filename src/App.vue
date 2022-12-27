@@ -9,16 +9,36 @@
       <NavBar />
     </div>
   </div>
+  <Footer />
+  <!-- <div class="fixed-bottom col-auto">
+    <p class="col-auto">
+      <a
+        href="https://github.com/ChrisPorter87"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        My GitHub profile
+      </a>
+    </p>
+
+    <address>
+      <a href="mailto:cap8095@gmail.com">My Email address</a>
+    </address>
+    <p>&copy; 2022 Vue Portfolio. All rights reserved.</p>
+  </div> -->
 </template>
 
 <script>
 import NavBar from "./components/nav";
+// eslint-disable-next-line
+import Footer from "./components/Footer.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "App",
   components: {
     NavBar,
+    Footer,
   },
   setup() {
     return {};
