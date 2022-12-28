@@ -39,7 +39,17 @@
             <img class="d-block w-100 h-100" :src="recipe" alt="Second slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 h-100" :src="orale" alt="Third slide" />
+            <a href="https://ckoehler16.github.io/Cocktail-Generator/">
+              <img class="d-block w-100 h-100" :src="flute" alt="Third slide"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://chrisporter87.github.io/WeatherAssignment/">
+              <img
+                class="d-block w-100 h-100"
+                :src="weather"
+                alt="fourth slide"
+            /></a>
           </div>
         </div>
         <button
@@ -73,8 +83,9 @@ export default defineComponent({
   setup() {
     return {
       bistro: "../assets/bisto.jpg",
-      orale: "../assets/orale.jpeg",
+      flute: "../../pictures/flute.jpg",
       recipe: "../assets/recipepantry.png",
+      weather: "../../pictures/3.jpg",
     };
   },
 });
